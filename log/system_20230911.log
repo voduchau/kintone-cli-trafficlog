@@ -1,0 +1,162 @@
+[09/11/2023, 21:56:59] [DEBUG] system:
+[
+  {
+    "date": "2023-09-10 21:56:59",
+    "response": "Running on 2023-09-10 21:56:59"
+  }
+]
+[09/11/2023, 21:56:59] [DEBUG] system:
+[
+  {
+    "date": "2023-09-10 21:56:59",
+    "response": "kintoneAuth",
+    "debug": {
+      "app": "1665",
+      "domain": "https://sdd-demo.cybozu.com",
+      "apiToken": "9oj4M4j6CZsUDFDBxbMAWsTcGPP3G41s38cEYwU0"
+    }
+  }
+]
+[09/11/2023, 21:56:59] [DEBUG] system:
+[
+  {
+    "date": "2023-09-10 21:56:59",
+    "response": "githubToken",
+    "debug": "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"
+  }
+]
+[09/11/2023, 21:57:00] [DEBUG] system:
+[
+  {
+    "date": "2023-09-10",
+    "response": "Respond from Github API",
+    "debug": {
+      "numberViewsOnGithub": [
+        {
+          "timestamp": "2023-08-28T00:00:00Z",
+          "count": 198,
+          "uniques": 16
+        },
+        {
+          "timestamp": "2023-09-04T00:00:00Z",
+          "count": 296,
+          "uniques": 21
+        },
+        {
+          "timestamp": "2023-09-11T00:00:00Z",
+          "count": 10,
+          "uniques": 3
+        }
+      ],
+      "numberClonesOnGithub": [
+        {
+          "timestamp": "2023-08-28T00:00:00Z",
+          "count": 108,
+          "uniques": 18
+        },
+        {
+          "timestamp": "2023-09-04T00:00:00Z",
+          "count": 102,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2023-09-11T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        }
+      ],
+      "numberDownloadsOnGithub": [
+        {
+          "name": "v0.1.2",
+          "count": 6
+        },
+        {
+          "name": "v0.1.0",
+          "count": 4
+        }
+      ]
+    }
+  }
+]
+[09/11/2023, 21:57:00] [DEBUG] system:
+[
+  {
+    "date": "2023-09-10",
+    "response": "Filter by last date: 2023-09-10",
+    "debug": {
+      "viewInfos": [],
+      "cloneInfos": []
+    }
+  }
+]
+[09/11/2023, 21:57:00] [DEBUG] system:
+[
+  {
+    "date": "2023-09-10 21:56:59",
+    "response": "Map Traffic Logs to kintone app",
+    "debug": [
+      {
+        "Project": {
+          "value": "kintone-cli"
+        },
+        "Date": {
+          "value": "2023-09-10"
+        },
+        "Clone_Count": {
+          "value": 0
+        },
+        "View_Count": {
+          "value": 0
+        },
+        "Unique_Visitors": {
+          "value": 0
+        },
+        "GH_Download_Count": {
+          "value": [
+            {
+              "value": {
+                "SUBTABLE_VERSION_NAME": {
+                  "value": "v0.1.2"
+                },
+                "SUBTABLE_DOWNLOAD_COUNT": {
+                  "value": "6"
+                }
+              }
+            },
+            {
+              "value": {
+                "SUBTABLE_VERSION_NAME": {
+                  "value": "v0.1.0"
+                },
+                "SUBTABLE_DOWNLOAD_COUNT": {
+                  "value": "4"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
+[09/11/2023, 21:57:01] [DEBUG] system:
+[
+  {
+    "date": "2023-09-10 21:56:59",
+    "response": "kintone API Response",
+    "debug": {
+      "ids": [
+        "17"
+      ],
+      "revisions": [
+        "1"
+      ],
+      "records": [
+        {
+          "id": "17",
+          "revision": "1"
+        }
+      ]
+    }
+  }
+]
